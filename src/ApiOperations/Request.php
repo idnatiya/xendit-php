@@ -94,7 +94,7 @@ trait Request
             $headers['X-API-VERSION'] = $params['X-API-VERSION'];
         }
 
-        $requestor =  \Idnatiya\Xendit\ApiRequestor();
+        $requestor = new \Idnatiya\Xendit\ApiRequestor();
         return $requestor->request($method, $url, $params, $headers);
     }
 }
