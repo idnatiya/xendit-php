@@ -61,7 +61,6 @@ class Customers
                 'kyc_documents'
             );
         } else {
-            array_push($requiredParams, 'given_names');
             if (!array_key_exists('mobile_number', $params)) {
                 array_push($requiredParams, 'email');
             }
