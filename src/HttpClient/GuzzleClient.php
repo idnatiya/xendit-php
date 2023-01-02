@@ -17,7 +17,7 @@ use GuzzleHttp\Client as Guzzle;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\RequestOptions;
 use Idnatiya\Xendit\Exceptions\ApiException;
-use Idnatita\Xendit\Xendit;
+use Idnatiya\Xendit\Xendit;
 
 /**
  * Class GuzzleClient
