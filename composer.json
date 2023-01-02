@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Xendit\\": "src/"
+            "Idnatiya\\Xendit\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Xendit\\": [
+            "Idnatiya\\Xendit\\": [
                 "tests/",
                 "tests/Xendit/"
             ]
