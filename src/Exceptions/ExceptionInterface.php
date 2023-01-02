@@ -11,7 +11,7 @@
  * @link     https://api.xendit.co
  */
 
-namespace Xendit\Exceptions;
+namespace Idnatiya\Xendit\Exceptions;
 
 /**
  * Interface ExceptionInterface

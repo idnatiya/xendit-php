@@ -9,13 +9,13 @@ For standardization purpose, package `xendit-php-clients` will be renamed to `xe
 To install this package with `composer`, run command:
 
 ```bash
-composer require xendit/xendit-php
+composer require idnatiya/xendit-php
 ```
 
 To update with `composer`, run command:
 
 ```bash
-composer update xendit/xendit-php
+composer update idnatiya/xendit-php
 ```
 
 ### Instantiate API Key

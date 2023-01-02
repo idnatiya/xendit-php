@@ -10,7 +10,7 @@
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     https://api.xendit.co
  */
-namespace Xendit;
+namespace Idnatiya\Xendit;
 
 use Xendit\Exceptions\ApiException;
 use Xendit\Exceptions\InvalidArgumentException;

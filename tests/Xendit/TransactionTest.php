@@ -11,7 +11,7 @@
  * @link     https://api.xendit.co
  */
 
-namespace Xendit;
+namespace Idnatiya\Xenditya\Xenditya\Xenditya\Xendit;
 
 use Xendit\Transaction;
 use Xendit\TestCase;

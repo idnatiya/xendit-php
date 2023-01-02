@@ -1,12 +1,12 @@
 {
-    "name": "xendit/xendit-php",
+    "name": "idnatiya/xendit-php",
     "description": "PHP clients for Xendit API",
     "version": "2.19.0",
     "license": "MIT",
     "keywords": [
         "xendit"
     ],
-    "homepage": "https://github.com/xendit/xendit-php",
+    "homepage": "https://github.com/idnatiya/xendit-php",
     "type": "library",
     "minimum-stability": "stable",
     "require": {

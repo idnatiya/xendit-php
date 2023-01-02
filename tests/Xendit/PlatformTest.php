@@ -11,7 +11,7 @@
  * @link     https://api.xendit.co
  */
 
-namespace Xendit;
+namespace Idnatiya\Xendit;
 
 use Xendit\Platform;
 use Xendit\TestCase;

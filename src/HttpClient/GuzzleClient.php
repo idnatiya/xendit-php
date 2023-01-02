@@ -11,7 +11,7 @@
  * @link     https://api.xendit.co
  */
 
-namespace Xendit\HttpClient;
+namespace Idnatiya\Xendit\HttpClient;
 
 use GuzzleHttp\Client as Guzzle;
 use GuzzleHttp\Exception\RequestException;

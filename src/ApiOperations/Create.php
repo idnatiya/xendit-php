@@ -11,7 +11,7 @@
  * @link     https://api.xendit.co
  */
 
-namespace Xendit\ApiOperations;
+namespace Idnatiya\Xendit\ApiOperations;
 
 /**
  * Trait Create

@@ -122,7 +122,7 @@ For the API documentation, check [Xendit API Reference](https://xendit.github.io
 Install xendit-php-clients with composer by following command:
 
 ```bash
-composer require xendit/xendit-php
+composer require idnatiya/xendit-php
 ```
 
 or add it manually in your `composer.json` file.
@@ -132,7 +132,7 @@ or add it manually in your `composer.json` file.
 To update xendit-php-clients with composer, use the following command:
 
 ```bash
-composer update xendit/xendit-php
+composer update idnatiya/xendit-php
 ```
 
 To migrate, see [MIGRATE.md](MIGRATE.md) for more information.
@@ -1865,7 +1865,7 @@ try {
 
 ## Contributing
 
-For any requests, bugs, or comments, please open an [issue](https://github.com/xendit/xendit-php-clients/issues) or [submit a pull request](https://github.com/xendit/xendit-php-clients/pulls).
+For any requests, bugs, or comments, please open an [issue](https://github.com/idnatiya/xendit-php-clients/issues) or [submit a pull request](https://github.com/idnatiya/xendit-php-clients/pulls).
 
 ### Installing Packages
 

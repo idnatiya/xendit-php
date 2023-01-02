@@ -11,7 +11,7 @@
  * @link     https://github.com/xendit/xendit-php/blob/master/src/HttpClientInterface.php
  */
 
-namespace Xendit;
+namespace Idnatiya\Xendit;
 
 
 /**
