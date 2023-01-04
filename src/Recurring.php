@@ -36,7 +36,7 @@ class Recurring
      */
     public static function classUrl()
     {
-        return "/recurring_payments";
+        return "/recurring/plans";
     }
 
     /**
@@ -47,12 +47,18 @@ class Recurring
     public static function createReqParams()
     {
         return [
-            'external_id',
-            'payer_email',
-            'description',
-            'amount',
-            'interval',
-            'interval_count'
+            'reference_id', 
+            'customer_id', 
+            'recurring_action', 
+            'currency', 
+            'amount', 
+            'schedule', 
+            'immediate_action_type', 
+            'notification_config',
+            'failed_cycle_action', 
+            'metadata', 
+            'success_return_url', 
+            'failure_return_url', 
         ];
     }
 

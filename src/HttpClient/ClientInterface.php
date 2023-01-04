@@ -13,7 +13,7 @@
 
 namespace Idnatiya\Xendit\HttpClient;
 
-use Xendit\Exceptions\ApiException;
+use Idnatiya\Xendit\Exceptions\ApiException;
 
 /**
  * Interface ClientInterface
