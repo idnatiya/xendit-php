@@ -99,7 +99,7 @@ class Recurring
      */
     public static function cancel($id)
     {
-        $url = '/recurring/plans/' . $id . '/deactive';
+        $url = '/recurring/plans/' . $id . '/deactivate';
 
         return static::_request('POST', $url);
     }
