@@ -73,6 +73,38 @@ class Recurring
     }
 
     /**
+     * Cancel a recurring payment
+     *
+     * @param string $id recurring payment ID
+     *
+     * @return array[
+     * 'id'=> string,
+     * 'user_id'=> string,
+     * 'external_id'=> string,
+     * 'status'=> 'ACTIVE' || 'STOPPED' || 'PAUSED',
+     * 'amount'=> int,
+     * 'payer_email'=> string,
+     * 'description'=> string,
+     * 'interval'=> string,
+     * 'interval_count'=> int,
+     * 'recurrence_progress'=> int,
+     * 'should_send_email'=> bool,
+     * 'missed_payment_action'=> string,
+     * 'recharge'=> bool,
+     * 'created'=> string,
+     * 'updated'=> string,
+     * 'start_date'=> string
+     * ]
+     * @throws Exceptions\ApiException
+     */
+    public static function cancel($id)
+    {
+        $url = '/recurring/plans/' . $id . '/deactive';
+
+        return static::_request('POST', $url);
+    }
+
+    /**
      * Stop a recurring payment
      *
      * @param string $id recurring payment ID
