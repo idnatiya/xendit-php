@@ -131,7 +131,7 @@ class Recurring
      */
     public static function stop($id)
     {
-        $url = '/recurring_payments/' . $id . '/stop!';
+        $url = '/recurring/plans/' . $id . '/deactivate';
 
         return static::_request('POST', $url);
     }
